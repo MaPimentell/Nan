@@ -71,7 +71,7 @@
                     <img src="/images/imagem-teste-02.jpg" alt="Imagem de teste" class="rounded h-72 w-auto" />
                 </div>
             </div>
-            <div class="flex mt-10 px-24 gap-8">
+            <div class="flex mt-10 px-24 py-10 gap-8">
                 <div class="w-1/3">
                     <img  src="/images/homeImg.jpg" alt="Imagem de teste" class="rounded w-auto h-80 ">
                 </div>
@@ -98,8 +98,8 @@
                     <a href="#">							
                         <button class="shadow-[0_5px_20px_-5px_rgba(227,227,227,0.3)] text-white hover:before:bg-redborder-red-500 relative text-sm px-10 py-8 text-center inline-flex items-center me-2 mb-2 w-[13rem] md:w-[15rem] overflow-hidden bg-black  transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-black hover:before:left-0 hover:before:w-full rounded-lg">
                             <span class="text-center inline-flex items-center z-10">
-                                <svg width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" aria-label="Apple Music" role="img" viewBox="0 0 512 512">
-                                    <rect width="512" height="512" rx="15%" fill="url(#g)"/><linearGradient id="g" x1=".5" y1=".99" x2=".5" y2=".02"><stop offset="0" stop-color="#FA233B"/><stop offset="1" stop-color="#FB5C74"/></linearGradient><path fill="#ffffff" d="M199 359V199q0-9 10-11l138-28q11-2 12 10v122q0 15-45 20c-57 9-48 105 30 79 30-11 35-40 35-69V88s0-20-17-15l-170 35s-13 2-13 18v203q0 15-45 20c-57 9-48 105 30 79 30-11 35-40 35-69"/>
+                                <svg width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" class="fill-white" aria-label="Apple Music" role="img" viewBox="0 0 512 512">
+                                    <rect width="512" height="512" rx="15%" fill="url(#g)"/><linearGradient id="g" x1=".5" y1=".99" x2=".5" y2=".02"><stop offset="0" stop-color="#FA233B"/><stop offset="1" stop-color="#FB5C74"/></linearGradient><path d="M199 359V199q0-9 10-11l138-28q11-2 12 10v122q0 15-45 20c-57 9-48 105 30 79 30-11 35-40 35-69V88s0-20-17-15l-170 35s-13 2-13 18v203q0 15-45 20c-57 9-48 105 30 79 30-11 35-40 35-69"/>
                                 </svg>
                                 <p class="ps-4 text-left">
                                     <span class="text-sm font-light">Escute no:</span><br><span class="text-lg">Apple Music</span>
@@ -110,7 +110,7 @@
                     <a href="#">							
                         <button class="shadow-[0_5px_20px_-5px_rgba(227,227,227,0.3)] text-white hover:before:bg-redborder-red-500 relative text-sm px-10 py-8 text-center inline-flex items-center me-2 mb-2 w-[13rem] md:w-[15rem] overflow-hidden bg-black  transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-black hover:before:left-0 hover:before:w-full rounded-lg">
                             <span class="text-center inline-flex items-center z-10">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#FF0033" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg"  width="40px" height="40px" fill="#FF0033" class="bi bi-youtube" viewBox="0 0 16 16">
                                     <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
                                 </svg>
 
