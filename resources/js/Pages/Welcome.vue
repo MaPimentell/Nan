@@ -40,19 +40,19 @@
             </div>
             <nav v-if="canLogin" class="-mx-3 flex flex-1 justify-center gap-6">
                 <Link v-if="$page.props.auth.user" href="#"
-                    class="group rounded-md px-3 py-2 text-white font-medium text-lg">
+                    class="group rounded-md px-3 py-2 text-white font-medium text-xl">
                     Dashboard
                     <div class="bg-white h-[2.5px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </Link>
 
                 <Link href="/"
-                    class="group rounded-md px-3 py-2 text-white font-medium text-lg">
+                    class="group rounded-md px-3 py-2 text-white font-medium text-xl">
                     Home
                     <div class="bg-white h-[2.5px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </Link>
 
                 <Link href="/contato"
-                    class="group rounded-md px-3 py-2 text-white font-medium text-lg">
+                    class="group rounded-md px-3 py-2 text-white font-medium text-xl">
                     Contato
                     <div class="bg-white h-[2.5px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </Link>
