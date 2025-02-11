@@ -77,14 +77,14 @@
                     <p class="text-gray-600 mt-6 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue dolor, mattis sed nunc ac, sodales convallis urna. Quisque molestie quam ante, in ultrices leo consequat vitae. Donec non est erat. Vestibulum vestibulum, diam sollicitudin porttitor congue, dolor mauris pulvinar est, sit amet sollicitudin felis mauris eget neque. Ut lobortis augue leo, vitae congue erat pharetra in. Fusce aliquet nunc sit amet arcu elementum malesuada. Maecenas commodo, justo ac placerat faucibus, magna enim maximus felis, sit amet gravida mauris risus vitae odio.</p>
                 </div>
             </div>
-            <div class="mt-10 px-24 bg-[#171717] py-12">
+            <div class="mt-10 px-24 bg-[#111018] py-20">
                 <h2 class="text-white font-bold text-3xl">Escute em qualque Lugar</h2>
-                <div class="mt-12 flex flex-col md:flex-row items-center justify-center gap-10">
+                <div class="mt-16 flex flex-col md:flex-row items-center justify-center gap-10">
                     <a href="#">
                         <button type="button" class="shadow-[0_5px_20px_-5px_rgba(227,227,227,0.3)] text-white hover:before:bg-redborder-red-500 relative text-sm px-10 py-8 text-center inline-flex items-center me-2 mb-2 w-[13rem] md:w-[15rem] overflow-hidden bg-black  transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-black hover:before:left-0 hover:before:w-full rounded-lg">
                             <span class="text-center inline-flex items-center z-10">
-                                <svg width="40px" height="40px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <title>Spotify-color</title><desc>Created with Sketch.</desc><defs></defs><g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Color-" transform="translate(-200.000000, -460.000000)" fill="#00DA5A">
-                                    <path d="M238.16,481.36 C230.48,476.8 217.64,476.32 210.32,478.6 C209.12,478.96 207.92,478.24 207.56,477.16 C207.2,475.96 207.92,474.76 209,474.4 C217.52,471.88 231.56,472.36 240.44,477.64 C241.52,478.24 241.88,479.68 241.28,480.76 C240.68,481.6 239.24,481.96 238.16,481.36 M237.92,488.08 C237.32,488.92 236.24,489.28 235.4,488.68 C228.92,484.72 219.08,483.52 211.52,485.92 C210.56,486.16 209.48,485.68 209.24,484.72 C209,483.76 209.48,482.68 210.44,482.44 C219.2,479.8 230,481.12 237.44,485.68 C238.16,486.04 238.52,487.24 237.92,488.08 M235.04,494.68 C234.56,495.4 233.72,495.64 233,495.16 C227.36,491.68 220.28,490.96 211.88,492.88 C211.04,493.12 210.32,492.52 210.08,491.8 C209.84,490.96 210.44,490.24 211.16,490 C220.28,487.96 228.2,488.8 234.44,492.64 C235.28,493 235.4,493.96 235.04,494.68 M224,460 C210.8,460 200,470.8 200,484 C200,497.2 210.8,508 224,508 C237.2,508 248,497.2 248,484 C248,470.8 237.32,460 224,460" id="Spotify"></path></g></g>
+                                <svg width="40px" height="40px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Spotify-color</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-200.000000, -460.000000)" fill="#00DA5A"> 
+                                    <path d="M238.16,481.36 C230.48,476.8 217.64,476.32 210.32,478.6 C209.12,478.96 207.92,478.24 207.56,477.16 C207.2,475.96 207.92,474.76 209,474.4 C217.52,471.88 231.56,472.36 240.44,477.64 C241.52,478.24 241.88,479.68 241.28,480.76 C240.68,481.6 239.24,481.96 238.16,481.36 M237.92,488.08 C237.32,488.92 236.24,489.28 235.4,488.68 C228.92,484.72 219.08,483.52 211.52,485.92 C210.56,486.16 209.48,485.68 209.24,484.72 C209,483.76 209.48,482.68 210.44,482.44 C219.2,479.8 230,481.12 237.44,485.68 C238.16,486.04 238.52,487.24 237.92,488.08 M235.04,494.68 C234.56,495.4 233.72,495.64 233,495.16 C227.36,491.68 220.28,490.96 211.88,492.88 C211.04,493.12 210.32,492.52 210.08,491.8 C209.84,490.96 210.44,490.24 211.16,490 C220.28,487.96 228.2,488.8 234.44,492.64 C235.28,493 235.4,493.96 235.04,494.68 M224,460 C210.8,460 200,470.8 200,484 C200,497.2 210.8,508 224,508 C237.2,508 248,497.2 248,484 C248,470.8 237.32,460 224,460" id="Spotify"> </path> </g> </g> </g>
                                 </svg>
                                 <p class="ps-4 text-left">
                                     <span class="text-sm font-light">Escute no:</span><br><span class="text-lg">Spotify</span>
@@ -95,8 +95,8 @@
                     <a href="#">							
                         <button class="shadow-[0_5px_20px_-5px_rgba(227,227,227,0.3)] text-white hover:before:bg-redborder-red-500 relative text-sm px-10 py-8 text-center inline-flex items-center me-2 mb-2 w-[13rem] md:w-[15rem] overflow-hidden bg-black  transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-black hover:before:left-0 hover:before:w-full rounded-lg">
                             <span class="text-center inline-flex items-center z-10">
-                                <svg width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" class="fill-white" aria-label="Apple Music" role="img" viewBox="0 0 512 512">
-                                    <rect width="512" height="512" rx="15%" fill="url(#g)"/><linearGradient id="g" x1=".5" y1=".99" x2=".5" y2=".02"><stop offset="0" stop-color="#FA233B"/><stop offset="1" stop-color="#FB5C74"/></linearGradient><path d="M199 359V199q0-9 10-11l138-28q11-2 12 10v122q0 15-45 20c-57 9-48 105 30 79 30-11 35-40 35-69V88s0-20-17-15l-170 35s-13 2-13 18v203q0 15-45 20c-57 9-48 105 30 79 30-11 35-40 35-69"/>
+                                <svg width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" class="fill-white" aria-label="Apple Music" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="url(#g)"/><linearGradient id="g" x1=".5" y1=".99" x2=".5" y2=".02"><stop offset="0" stop-color="#FA233B"/><stop offset="1" stop-color="#FB5C74"/></linearGradient>
+                                    <path d="M199 359V199q0-9 10-11l138-28q11-2 12 10v122q0 15-45 20c-57 9-48 105 30 79 30-11 35-40 35-69V88s0-20-17-15l-170 35s-13 2-13 18v203q0 15-45 20c-57 9-48 105 30 79 30-11 35-40 35-69"/>
                                 </svg>
                                 <p class="ps-4 text-left">
                                     <span class="text-sm font-light">Escute no:</span><br><span class="text-lg">Apple Music</span>
@@ -107,23 +107,21 @@
                     <a href="#">							
                         <button class="shadow-[0_5px_20px_-5px_rgba(227,227,227,0.3)] text-white hover:before:bg-redborder-red-500 relative text-sm px-10 py-8 text-center inline-flex items-center me-2 mb-2 w-[13rem] md:w-[15rem] overflow-hidden bg-black  transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-black hover:before:left-0 hover:before:w-full rounded-lg">
                             <span class="text-center inline-flex items-center z-10">
-                                <svg xmlns="http://www.w3.org/2000/svg"  width="40px" height="40px" fill="#FF0033" class="bi bi-youtube" viewBox="0 0 16 16">
-                                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                <svg width="50px" height="50px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                                    <path fill="red" d="M14.712 4.633a1.754 1.754 0 00-1.234-1.234C12.382 3.11 8 3.11 8 3.11s-4.382 0-5.478.289c-.6.161-1.072.634-1.234 1.234C1 5.728 1 8 1 8s0 2.283.288 3.367c.162.6.635 1.073 1.234 1.234C3.618 12.89 8 12.89 8 12.89s4.382 0 5.478-.289a1.754 1.754 0 001.234-1.234C15 10.272 15 8 15 8s0-2.272-.288-3.367z"></path><path fill="#ffffff" d="M6.593 10.11l3.644-2.098-3.644-2.11v4.208z"></path></g>
                                 </svg>
-
                                 <p class="ps-4 text-left">
                                     <span class="text-sm font-light">Escute no:</span><br><span class="text-lg">Youtube</span>
                                 </p>
                             </span>
                         </button>
                     </a>
-                    <a href="#">							
-                        <button class="shadow-[0_5px_20px_-5px_rgba(227,227,227,0.3)] text-white hover:before:bg-redborder-red-500 relative text-sm px-10 py-8 text-center inline-flex items-center me-2 mb-2 w-[13rem] md:w-[15rem] overflow-hidden bg-black  transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-black hover:before:left-0 hover:before:w-full rounded-lg">
+                    <a href="#">
+                        <button type="button" class="shadow-[0_5px_20px_-5px_rgba(227,227,227,0.3)] text-white hover:before:bg-redborder-red-500 relative text-sm px-10 py-8 text-center inline-flex items-center me-2 mb-2 w-[13rem] md:w-[15rem] overflow-hidden bg-black  transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-black hover:before:left-0 hover:before:w-full rounded-lg">
                             <span class="text-center inline-flex items-center z-10">
-                                <svg xmlns="http://www.w3.org/2000/svg"  width="40px" height="40px" fill="#FF0033" class="bi bi-youtube" viewBox="0 0 16 16">
-                                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                <svg width="40px" height="40px" class="" viewBox="0 -11.2 46.9 46.9" id="svg2" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_iconCarrier">
+                                    <path id="path59" fill="#b1e3fa" d="M38.3 13.9v-1h8.6v2h-8.6v-1zm0-3.2v-1h8.6v2h-8.6v-1zm0-3.2v-1h8.6v2h-8.6v-1zm0-3.3v-1h8.6v2.1h-8.6V4.2zm0-3.1V0h8.6v2.2h-8.6V1.1z"/><path id="path57" fill="#f7bacf" d="M19.1 13.9v-1h8.6v2h-8.6v-1zm0-3.2v-1h8.6v2h-8.6v-1zm0-3.2v-1h8.6v2h-8.6v-1zm0-3.3v-1h8.6v2.1h-8.6V4.2z"/><path id="path55" fill="#e7ee9f" d="M28.7 13.9v-1h8.6v2h-8.6v-1zm0-3.2v-1h8.6v2h-8.6v-1z"/><path id="path53" fill="#feea3a" d="M9.6 23.5v-1H18v2H9.6v-1zm0-3.3v-1H18v2H9.6v-1zm0-3.2v-1H18v2H9.6v-1z"/><path id="path51" fill="#fe9d7f" d="M0 13.9v-1h8.4v2H0v-1zm0-3.2v-1h8.4v2H0v-1z"/><path id="path49" fill="#4ec2f6" d="M38.4 23.5v-1h8.4v2h-8.4v-1zm0-3.3v-1h8.4v2h-8.4v-1zm0-3.2v-1h8.4v2h-8.4v-1z"/><path id="path47" fill="#ccdb38" d="M28.8 23.5v-1h8.4v2h-8.4v-1zm0-3.3v-1h8.4v2h-8.4v-1zm0-3.2v-1h8.4v2h-8.4v-1z"/><path id="path45" fill="#fe3f80" d="M19.2 23.5v-1h8.4v2h-8.4v-1zm0-3.3v-1h8.4v2h-8.4v-1zm0-3.2v-1h8.4v2h-8.4v-1z"/><path id="path43" fill="#fe3d02" d="M0 23.5v-1h8.4v2H0v-1zm0-3.3v-1h8.4v2H0v-1zM0 17v-1h8.4v2H0v-1z"/></g>
                                 </svg>
-
                                 <p class="ps-4 text-left">
                                     <span class="text-sm font-light">Escute no:</span><br><span class="text-lg">Deezer</span>
                                 </p>
@@ -133,8 +131,43 @@
                 </div>
             </div>
             <div class="mt-10 px-24">
-                <h2 class="text-gray-800 font-bold text-3xl">Serviços</h2>
-                <p>serviços...</p>
+                <div>
+                    <h2 class="text-gray-800 font-bold text-3xl">Serviços</h2>
+                </div>
+                <div class="flex justify-between mt-12">
+                    <div class="w-1/2">
+                        <p>serviços...</p>
+                    </div>
+                    <div class="w-1/2 text-center">
+                        <h3 class="text-gray-800 font-medium text-2xl">Entre em contato</h3>
+                        <p class="mt-5 text-gray-600 text-lg tracking-wide">Se interessou pelo meu trabalho? Entre em contato e descubra como posso ajudar na mixagem e produção da sua música com qualidade profissional!</p>
+                        <div class="flex justify-around mt-6">
+                            <div class="flex flex-col items-center text-center">
+                                <svg class="h-12 w-12" fill="#000000" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M11.748 5.773S11.418 5 10.914 5c-.496 0-.754.229-.926.387S6.938 7.91 6.938 7.91s-.837.731-.773 2.106c.054 1.375.323 3.332 1.719 6.058 1.386 2.72 4.855 6.876 7.047 8.337 0 0 2.031 1.558 3.921 2.191.549.173 1.647.398 1.903.398.26 0 .719 0 1.246-.385.536-.389 3.543-2.807 3.543-2.807s.736-.665-.119-1.438c-.859-.773-3.467-2.492-4.025-2.944-.559-.459-1.355-.257-1.699.054-.343.313-.956.828-1.031.893-.112.086-.419.365-.763.226-.438-.173-2.234-1.148-3.899-3.426-1.655-2.276-1.837-3.02-2.084-3.824a.56.56 0 0 1 .225-.657c.248-.172 1.161-.933 1.161-.933s.591-.583.344-1.27-1.906-4.716-1.906-4.716z"></path></g></svg>
+                                <p class="text-gray-600 text-sm">+55 11 99999-9999</p>
+                            </div>
+                            <div class="flex flex-col items-center text-center">
+                                <svg class="h-12 w-12" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></g></svg>
+                                <p class="text-gray-600 text-sm">mail@mail.com</p>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <Link href="/contato" class=" px-32 py-2 font-bold rounded-lg border border-[#AD2831] bg-[#AD2831] text-white hover:text-[#AD2831] hover:bg-transparent transition ease-in-out duration-300">
+                                Mais informações
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 px-24">
+                <hr>
+                <div>
+                    <h2 class="text-gray-800 font-bold text-3xl mt-10">Novo albúm</h2>
+                    <p>Ouça meu novo albúm.</p>
+                </div>
+                <div>
+
+                </div>
             </div>
         </main>
 
