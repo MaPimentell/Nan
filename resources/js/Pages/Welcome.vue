@@ -1,5 +1,7 @@
 <script setup>
     import { Head, Link } from '@inertiajs/vue3';
+    import { ref } from "vue";
+
     defineProps({
         canLogin: {
             type: Boolean,
@@ -24,6 +26,36 @@
         document.getElementById('background')?.classList.add('!hidden');
     }
 
+    const tracks = ref([
+    { title: "Música 1", time: "00:00", src: "/musicas/musica1.mp3" },
+    { title: "Música 2", time: "00:00", src: "/musicas/musica2.mp3" },
+    { title: "Música 3", time: "00:00", src: "/musicas/musica3.mp3" },
+    { title: "Música 4", time: "00:00", src: "/musicas/musica4.mp3" },
+    { title: "Música 5", time: "00:00", src: "/musicas/musica5.mp3" },
+    ]);
+
+    const currentTrack = ref(null);
+    const isPlaying = ref(false);
+    const audioPlayer = ref(null);
+
+    const togglePlay = (track) => {
+    const audio = audioPlayer.value;
+
+    if (currentTrack.value === track && isPlaying.value) {
+        audio.pause();
+        isPlaying.value = false;
+    } else {
+        currentTrack.value = track;
+        audio.src = track.src;
+        audio.play();
+        isPlaying.value = true;
+    }
+    };
+
+    const nextTrack = () => {
+    isPlaying.value = false;
+    currentTrack.value = null;
+    };
 
 </script>
 
@@ -159,14 +191,42 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-10 px-24">
+            <div class="mt-16 px-24">
                 <hr>
                 <div>
                     <h2 class="text-gray-800 font-bold text-3xl mt-10">Novo albúm</h2>
-                    <p>Ouça meu novo albúm.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dignissim vehicula. In hac habitasse platea dictumst.</p>
                 </div>
-                <div>
+                <div class="flex mt-4">
+                    <div class="bg-gray-100 h-80 w-1/2 rounded-lg">
 
+                    </div>
+                    <div class="w-1/2 pl-6">
+                        <ul>
+                        <li
+                            v-for="(track, index) in tracks"
+                            :key="index"
+                            class="flex items-center justify-between p-3 hover:bg-gray-200 rounded-lg transition"
+                        >
+                            <div class="flex items-center gap-3">
+                            <span class="text-gray-500">{{ index + 1 }}</span>
+                            <div>
+                                <p class="text-gray-800 font-medium">{{ track.title }}</p>
+                                <p class="text-gray-500 text-sm">{{ track.time }}</p>
+                            </div>
+                            </div>
+                            <button @click="togglePlay(track)" class="text-gray-600 hover:text-gray-900 transition">
+                            <svg v-if="currentTrack === track && isPlaying" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                            </svg>
+                            <svg v-else class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                            </button>
+                        </li>
+                        </ul>
+                        <audio ref="audioPlayer" @ended="nextTrack"></audio>
+                    </div>
                 </div>
             </div>
         </main>
