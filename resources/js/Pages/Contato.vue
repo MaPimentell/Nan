@@ -60,7 +60,7 @@ function handleImageError() {
                     <h1 class="text-white text-5xl">Contate-me</h1>
                 </div>
             </div>
-            <div class=" bg-white mx-48 -mt-16 px-16 py-8 shadow-xl rounded">
+            <div class=" bg-white mx-48 -mt-16 px-16 py-10 shadow-xl rounded">
                 <div class="">
                     <div>
                         <div class="flex items-center gap-2">

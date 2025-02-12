@@ -100,15 +100,45 @@
                     <img src="/images/imagem-teste-02.jpg" alt="Imagem de teste" class="rounded h-72 w-auto" />
                 </div>
             </div>
-            <div class="flex mt-10 px-24 py-10 gap-8">
-                <div class="w-1/3">
-                    <img  src="/images/homeImg.jpg" alt="Imagem de teste" class="rounded w-auto h-80 ">
+            <div class="mt-16 px-24">
+
+                <div>
+                    <h2 class="text-gray-800 font-bold text-3xl mt-10">Novo albúm</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dignissim vehicula. In hac habitasse platea dictumst.</p>
                 </div>
-                <div class="w-2/3 py-4 ">
-                    <h2 class="text-4xl font-bold text-gray-800 ">Sobre mim</h2>
-                    <p class="text-gray-600 mt-6 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue dolor, mattis sed nunc ac, sodales convallis urna. Quisque molestie quam ante, in ultrices leo consequat vitae. Donec non est erat. Vestibulum vestibulum, diam sollicitudin porttitor congue, dolor mauris pulvinar est, sit amet sollicitudin felis mauris eget neque. Ut lobortis augue leo, vitae congue erat pharetra in. Fusce aliquet nunc sit amet arcu elementum malesuada. Maecenas commodo, justo ac placerat faucibus, magna enim maximus felis, sit amet gravida mauris risus vitae odio.</p>
+                <div class="flex mt-4">
+                    <div class="bg-gray-100 h-80 w-1/2 rounded-lg">
+
+                    </div>
+                    <div class="w-1/2 pl-6">
+                        <ul>
+                        <li
+                            v-for="(track, index) in tracks"
+                            :key="index"
+                            class="flex items-center justify-between p-3 hover:bg-gray-200 rounded-lg transition"
+                        >
+                            <div class="flex items-center gap-3">
+                            <span class="text-gray-500">{{ index + 1 }}</span>
+                            <div>
+                                <p class="text-gray-800 font-medium">{{ track.title }}</p>
+                                <p class="text-gray-500 text-sm">{{ track.time }}</p>
+                            </div>
+                            </div>
+                            <button @click="togglePlay(track)" class="text-gray-600 hover:text-gray-900 transition">
+                            <svg v-if="currentTrack === track && isPlaying" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                            </svg>
+                            <svg v-else class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                            </button>
+                        </li>
+                        </ul>
+                        <audio ref="audioPlayer" @ended="nextTrack"></audio>
+                    </div>
                 </div>
             </div>
+            
             <div class="mt-10 px-24 bg-[#111018] py-20">
                 <h2 class="text-white font-bold text-3xl">Escute em qualque Lugar</h2>
                 <div class="mt-16 flex flex-col md:flex-row items-center justify-center gap-10">
@@ -191,41 +221,15 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-16 px-24">
+            <div class="mt-7 px-24 py-10">
                 <hr>
-                <div>
-                    <h2 class="text-gray-800 font-bold text-3xl mt-10">Novo albúm</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dignissim vehicula. In hac habitasse platea dictumst.</p>
-                </div>
-                <div class="flex mt-4">
-                    <div class="bg-gray-100 h-80 w-1/2 rounded-lg">
-
+                <div class="flex mt-10 gap-8">
+                    <div class="w-1/3">
+                        <img  src="/images/homeImg.jpg" alt="Imagem de teste" class="rounded w-auto h-80 ">
                     </div>
-                    <div class="w-1/2 pl-6">
-                        <ul>
-                        <li
-                            v-for="(track, index) in tracks"
-                            :key="index"
-                            class="flex items-center justify-between p-3 hover:bg-gray-200 rounded-lg transition"
-                        >
-                            <div class="flex items-center gap-3">
-                            <span class="text-gray-500">{{ index + 1 }}</span>
-                            <div>
-                                <p class="text-gray-800 font-medium">{{ track.title }}</p>
-                                <p class="text-gray-500 text-sm">{{ track.time }}</p>
-                            </div>
-                            </div>
-                            <button @click="togglePlay(track)" class="text-gray-600 hover:text-gray-900 transition">
-                            <svg v-if="currentTrack === track && isPlaying" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
-                            </svg>
-                            <svg v-else class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M8 5v14l11-7z" />
-                            </svg>
-                            </button>
-                        </li>
-                        </ul>
-                        <audio ref="audioPlayer" @ended="nextTrack"></audio>
+                    <div class="w-2/3 py-4 ">
+                        <h2 class="text-4xl font-bold text-gray-800 ">Sobre mim</h2>
+                        <p class="text-gray-600 mt-6 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue dolor, mattis sed nunc ac, sodales convallis urna. Quisque molestie quam ante, in ultrices leo consequat vitae. Donec non est erat. Vestibulum vestibulum, diam sollicitudin porttitor congue, dolor mauris pulvinar est, sit amet sollicitudin felis mauris eget neque. Ut lobortis augue leo, vitae congue erat pharetra in. Fusce aliquet nunc sit amet arcu elementum malesuada. Maecenas commodo, justo ac placerat faucibus, magna enim maximus felis, sit amet gravida mauris risus vitae odio.</p>
                     </div>
                 </div>
             </div>
