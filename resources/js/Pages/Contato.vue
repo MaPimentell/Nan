@@ -1,5 +1,7 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
+import Accordion from '@/Components/Accordion.vue';
+
 
 defineProps({
     canLogin: {
@@ -24,8 +26,6 @@ function handleImageError() {
     document.getElementById('docs-card-content')?.classList.add('!flex-row');
     document.getElementById('background')?.classList.add('!hidden');
 }
-
-
 </script>
 
 <template>
@@ -55,12 +55,12 @@ function handleImageError() {
         </header>
 
         <main>
-            <div class="bg-[#111018] h-[13vw] flex items-center pb-12 px-48">
+            <div class="bg-[#111018] h-[13vw] flex items-center pb-12 px-56">
                 <div class="">
                     <h1 class="text-white text-5xl">Contate-me</h1>
                 </div>
             </div>
-            <div class=" bg-white mx-48 -mt-16 px-16 py-10 shadow-xl rounded">
+            <div class=" bg-white mx-48 -mt-16 px-14 py-10 shadow-xl rounded">
                 <div class="">
                     <div>
                         <div class="flex items-center gap-2">
@@ -68,8 +68,24 @@ function handleImageError() {
                             <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g> <g id="SVGRepo_iconCarrier"><path d="M14.3187 2.50498C13.0514 2.35716 11.8489 3.10033 11.4144 4.29989C11.3165 4.57023 11.2821 4.86251 11.266 5.16888C11.2539 5.40001 11.2509 5.67552 11.2503 6L11.25 6.45499C11.25 6.4598 11.25 6.4646 11.25 6.46938V14.5359C10.4003 13.7384 9.25721 13.25 8 13.25C5.37665 13.25 3.25 15.3766 3.25 18C3.25 20.6234 5.37665 22.75 8 22.75C10.6234 22.75 12.75 20.6234 12.75 18V9.21059C12.8548 9.26646 12.9683 9.32316 13.0927 9.38527L15.8002 10.739C16.2185 10.9481 16.5589 11.1183 16.8378 11.2399C17.119 11.3625 17.3958 11.4625 17.6814 11.4958C18.9486 11.6436 20.1511 10.9004 20.5856 9.70089C20.6836 9.43055 20.7179 9.13826 20.7341 8.83189C20.75 8.52806 20.75 8.14752 20.75 7.67988L20.7501 7.59705C20.7502 7.2493 20.7503 6.97726 20.701 6.71946C20.574 6.05585 20.2071 5.46223 19.6704 5.05185C19.4618 4.89242 19.2185 4.77088 18.9074 4.6155L16.1999 3.26179C15.7816 3.05264 15.4412 2.88244 15.1623 2.76086C14.8811 2.63826 14.6043 2.53829 14.3187 2.50498Z"fill="#000"></path></g></svg>
                         </div>
                         <p class="font-medium text-[16px]  text-gray-600">Produção musical, composição, mixagem e muito mais. Seja para um projeto próprio ou uma colaboração, estou aqui para dar vida ao seu som.</p>
-                        <div class="mt-6">
-                            serviços...
+                        <div class="">                           
+                            <div class="w-full mt-10 space-y-2">
+                                <Accordion title="Mix & Master">
+                                    <p>Transforme suas faixas em produções profissionais com nosso serviço de Mix & Master. Ajustamos cada elemento da sua música para garantir clareza, equilíbrio e impacto sonoro. O resultado é uma faixa pronta para tocar em qualquer plataforma com qualidade excepcional.</p>
+                                </Accordion>
+                                <Accordion title="Análise">
+                                    <p>Receba um feedback detalhado sobre suas músicas. Identificamos pontos fortes e áreas para aprimoramento, abordando aspectos como arranjo, mixagem e impacto emocional. Nossa análise ajuda você a elevar seu som ao próximo nível.</p>
+                                </Accordion>
+                                <Accordion title="Produção de Músicas">
+                                    <p>Dê vida às suas ideias musicais com nosso serviço de Produção. Desde a criação de instrumentais até a finalização de faixas completas, trabalhamos juntos para transformar suas inspirações em músicas envolventes e autênticas.</p>
+                                </Accordion>
+                                <Accordion title="Assistência em Composição">
+                                    <p>Precisa de ajuda para compor letras ou melodias? Oferecemos suporte criativo para desenvolver letras cativantes e melodias marcantes, mantendo a essência e a emoção que você deseja transmitir na sua música.</p>
+                                </Accordion>
+                                <Accordion title="Produção e Edição de Áudio">
+                                    <p>ConteúdoAprimore seus projetos com nosso serviço de Produção e Edição de Áudio. Seja para podcasts, vídeos ou qualquer outra mídia, garantimos alta qualidade sonora, cortes precisos e tratamento profissional para um som limpo e impactante.</p>
+                                </Accordion>
+                            </div>
                         </div>
                     </div>
                     <hr class="mt-6 border border-gray-200 rounded-xl">

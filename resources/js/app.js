@@ -21,6 +21,7 @@ createInertiaApp({
             app.use(plugin)
             app.use(ZiggyVue)
             app.component('test-component', TestComponent)
+            
             app.mount(el);
     },
     progress: {
