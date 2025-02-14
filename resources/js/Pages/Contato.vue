@@ -3,29 +3,7 @@ import { Head, Link } from '@inertiajs/vue3';
 import Accordion from '@/Components/Accordion.vue';
 
 
-defineProps({
-    canLogin: {
-        type: Boolean,
-    },
-    canRegister: {
-        type: Boolean,
-    },
-    laravelVersion: {
-        type: String,
-        required: true,
-    },
-    phpVersion: {
-        type: String,
-        required: true,
-    },
-});
 
-function handleImageError() {
-    document.getElementById('screenshot-container')?.classList.add('!hidden');
-    document.getElementById('docs-card')?.classList.add('!row-span-1');
-    document.getElementById('docs-card-content')?.classList.add('!flex-row');
-    document.getElementById('background')?.classList.add('!hidden');
-}
 </script>
 
 <template>
@@ -102,7 +80,7 @@ function handleImageError() {
                                     <input type="text" placeholder="Nome" class="w-1/2 bg-slate-100 rounded placeholder:text-slate-400 focus:border-red-500 border-none ">
                                     <input type="text" placeholder="Sobrenome" class="w-1/2 bg-slate-100 rounded placeholder:text-slate-400 border-none ">
                                 </div>
-                                <input type="text" placeholder="Telefone" class="mt-4 bg-slate-100 rounded placeholder:text-slate-400 border-none ">
+                                <input id="telefone" maxlength="15" type="text" class="form-input mt-4 bg-slate-100 rounded placeholder:text-slate-400 border-none "placeholder="telefone"/>
                                 <input type="email" placeholder="Email" class="mt-4 bg-slate-100 rounded placeholder:text-slate-400 border-none ">
                                 <textarea placeholder="Escreva sua mensagem aqui" class="mt-4 bg-slate-100 rounded placeholder:text-slate-400 border-none" rows="4"></textarea>
                                 <button type="submit" class="w-full py-2 mt-4 rounded  bg-[#AD2831] text-white border border-[#AD2831] hover:text-[#AD2831] hover:bg-transparent transition ease-in-out duration-300">
