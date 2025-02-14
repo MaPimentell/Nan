@@ -6,7 +6,7 @@
     >
       <h3>{{ title }}</h3>
       <svg 
-        class="w-5 h-5 transform transition-transform duration-300"
+        class="w-5 h-5 transform transition-transform duration-500"
         :class="isOpen ? 'rotate-180' : 'rotate-0'"
         viewBox="0 0 24 24" 
         fill="none" 
@@ -18,7 +18,7 @@
 
     <!-- Transição do conteúdo -->
     <div 
-      class="grid transition-all duration-300 ease-in-out overflow-hidden"
+      class="grid transition-all duration-500 ease-in-out overflow-hidden"
       :class="isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'"
     >
       <div class="p-4 border-t bg-white">
